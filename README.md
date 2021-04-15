@@ -13,6 +13,8 @@ Stm32 ht16k33 display Example Code
 
 
   //display LED
+  
+  
 	  if (dev->Flux_Req == 0 || displayChangeCnt > 0)
 	  {
 		  displayFloat(dev->tempreq.Temp_Req, 2);
